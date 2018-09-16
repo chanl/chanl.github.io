@@ -1,0 +1,109 @@
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: normal;
+	margin: 0;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding: 15px;
+  color: #228B22;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Cuprum', sans-serif;
+    line-height: 21px;
+	font-size: 13px;
+    color: #000;
+    background: url(images/Coffee-Background-45-2560x1600.jpg);
+    background-size: cover;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.restaurant-locator {
+	width: 100%;
+	padding: 10px;
+}
+
+#reservations {
+	padding: 20px;
+}
+
+#make_reservation {
+	width: 50%;
+	padding: 10px;
+	border: 1px;
+}
+
+button {
+  font-family: "Roboto", "Merriweather", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 300px;
+  margin: 30px auto;
+  padding: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 4px;
+  outline: 0;
+  background-color: #f78fa7;
+  box-shadow: inset 0 -3px rgba(0, 0, 0, .15);
+}
+
+input {
+  border-radius: 4px;
+  padding: 8px 10px;
+  border: 2px solid #D7D7D7;
+  margin: 8px;
+  font-size: 14px;
+}
+
+input:last-of-type {
+  width: 150px;
+}
+
+input:focus {
+  outline: none;
+}
+
+#existing_reservations {
+	width: 50%;
+	text-align:right;
+}
+
+.left {
+    float: left;
+    width: 45%;
+    height: 275px;
+    padding: 10px;
+        background-color: #fff;
+
+}
+.right {
+    float: right;
+    width: 45%;
+    height: 275px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+#reviews {
+	padding: 10px;
+}
+
+blockquote {
+	padding: 20px;
+}
