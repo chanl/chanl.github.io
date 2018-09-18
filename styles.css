@@ -2,10 +2,10 @@ h1, h2, h3,
 h4, h5, h6 {
 	font-weight: normal;
 	margin: 0;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Tinos', serif;
   text-align: center;
   padding: 15px;
-  color: #228B22;
+  color: #DC143C;
 }
 
 body {
@@ -83,7 +83,7 @@ input:focus {
 .left {
     float: left;
     width: 45%;
-    height: 275px;
+    height: 300px;
     padding: 10px;
         background-color: #fff;
 
@@ -91,9 +91,19 @@ input:focus {
 .right {
     float: right;
     width: 45%;
-    height: 275px;
+    height: 300px;
     padding: 10px;
     background-color: #fff;
+}
+
+#hours {
+   background-color: #fff;
+   height: 300px;
+   width: 180px;
+   position: absolute;
+   top: 125px;
+   right: 5%;
+   padding: 10px;
 }
 
 .clearfix {

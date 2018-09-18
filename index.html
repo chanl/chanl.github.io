@@ -3,21 +3,26 @@
 <head>
 	<!-- boostrap css -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css?family=Tinos:400,400i,700,700i" rel="stylesheet">
+
 	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i|Pacifico" rel="stylesheet">
 	<link href="styles.css"  type="text/css" rel="stylesheet">
-	
+
 	<title>Monk's Cafe</title>
 </head>
 <body>
-	<h1>Monk's Cafe</h1>
+	<div id="wrapper">
+	<div id="header">
+	<h1><em>Monk's Cafe</em></h1>
 	<h3>"The Coffee Shop"</h3>
+	<div id="content">
 	<p><img src="images/toms-restaurant.jpg" alt="Tom's Restaurant" class="center"></p>
 
 <div id="reservations">
 	<h2>Reservations</h2>
 
 	<div id="make_reservation" class="left">
-		<h3>Make a Reservation</h3>
+		<h3><em>Make a Reservation</em></h3>
 		<form id="reservation" action="" class="center">
 		Name: <input id="name" type="text" placeholder="name"><br>
 		Day: <input id="day" type="date" placeholder="day">
@@ -27,18 +32,18 @@
 	</div>
 
 	<div id="existing_reservation" class="right">
-		<h3>Existing Reservations</h3>
-		<table border="1" width="100%" cellpadding="6" cellspacing="0" width="200px" height="180px">
+		<h3><em>Existing Reservations</em></h3>
+		<table border="1" width="80%" cellpadding="6" cellspacing="0" width="200px" height="180px" align="center">
 			<tr>
-				<th>Name</th><th>Day</th>
+				<th width="60%"><p>Name</p></th><th width="40%"><p>Day</p></th>
 			</tr>
-			<tr><td>Jerry</td><td></td>	</tr>
+			<tr><td><p>Jerry</p></td><td></td>	</tr>
 				<tr>
-				<td>Elaine</td><td></td>	</tr>
+				<td><p>Elaine</p></td><td></td>	</tr>
 			<tr>
-				<td>George</td><td></td>	</tr>
+				<td><p>George</p></td><td></td>	</tr>
 				<tr>
-				<td>Kramer</td><td></td>	</tr>
+				<td><p>Kramer</p></td><td></td>	</tr>
 		
 		</table>
 	</div></div>
@@ -57,7 +62,38 @@
 		<div class="right">
 		<blockquote>“Big lettuce, big carrots, tomatoes like volleyballs.”<br>
 — Jerry Seinfeld, on The BIG Salad</blockquote></div>
+
+
 	</div>
+		
+
+	<div id="hours">
+		<div>
+					<h2><em>Hours</em></h2>
+<p>Mon Open 24 Hours <br>
+
+Tue 7:00 am – 1:00 am<br>
+
+Wed 7:00 am – 1:00 am<br>
+
+Thu 7:00 am – 1:00 am<br>
+
+Fri Open 24 Hours <br>
+
+Sat Open 24 Hours <br>
+
+Sun Open 24 Hours</p> </div>
+
+We are <span><h3>Open/Closed</h3></span>
+	</div></div></div>
+
+<div id="footer">
+<h2>Instagram Feed</h2>
+<script src="https://assets.juicer.io/embed.js" type="text/javascript"></script>
+<link href="https://assets.juicer.io/embed.css" media="all" rel="stylesheet" type="text/css" />
+<ul class="juicer-feed" data-feed-id="tomsrestaurantnyc" data-truncate="100" data-per="4" data-columns="4"><h1 class="referral"><a href="https://www.juicer.io">Powered by Juicer</a></h1></ul>
+	</div>
+
 	<!-- jQuery -->
       <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
       <!-- custom js -->
